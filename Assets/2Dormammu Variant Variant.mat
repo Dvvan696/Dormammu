@@ -31,14 +31,23 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _BaseMap
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: c831b2e382d2c1d42a16b746ef78887e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 7ab27100659ddf0429adcbd2d69e1d60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2dfe0035aa6bec2bdc2d4f839a21ae99, type: 3}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -48,8 +57,20 @@ Material:
     - _Effect_Radius: 27
     - _Frequency: 1.24
     - _Gradient_Edge: 7.3
+    - _Metallic: 0.93
+    - _MorphDirection: 2.55
+    - _NormalStr: 0.62
     - _QueueControl: 0
     - _Ripple_Density: 0.17
+    - _Scale: 3.06
+    - _Smoothness: 0.79
+    - _Waves: 2.42
+    - _WhiteColorMorph: -0.41
     m_Colors:
+    - _BaseColor: {r: 0, g: 0.20784314, b: 0.4862745, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset_1: {r: 3.63, g: 1.97, b: 0, a: 0}
     - _Ripple_Origin: {r: -12.6, g: 17.83, b: 2.8, a: 0}
+    - _Tilling: {r: 2.5, g: 2.5, b: 0, a: 0}
+    - _Tilling_1: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

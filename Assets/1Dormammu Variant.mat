@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 1Dormammu Variant
-  m_Shader: {fileID: -6465566751694194690, guid: cd8b2de93e2f06e43afb922257033051,
+  m_Shader: {fileID: -6465566751694194690, guid: c77a15343064e694385d4c0001c9934d,
     type: 3}
   m_Parent: {fileID: 2100000, guid: 44c6b9e4b67e31a4d9632e75999a3c14, type: 2}
   m_ModifiedSerializedProperties: 2
@@ -18,12 +18,17 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_8b6d5dd72c4b444bb4936b51488e0f16_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 2aa944e1beea58842a8817a55a0e7185, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
         m_Texture: {fileID: 2800000, guid: 3c42d20c8d153914b9ef607e1575fb29, type: 3}
         m_Scale: {x: 1, y: 1}
